@@ -2,6 +2,7 @@ import './App.css';
 import LoanPrograms from './LoanPrograms';
 import LoanGuidelines from './LoanGuidelines';
 import WhyChoose from './WhyChoose';
+import HowItWorks from './HowItWorks';
 
 import Header from './Header';
 import Form from './Form';
@@ -62,12 +63,17 @@ function App() {
         <Col lg={2}/>
     </Row>
 
+    <Row>
+        <Col lg={1}/>
+        <Col lg={10}> <HowItWorks /> </Col>
+        <Col lg={1}/>
+    </Row>
 
-
-
-
-
-
+    <Row>
+        <Col lg={2}/>
+        <Col lg={8}> <Form /> </Col>
+        <Col lg={2}/>
+    </Row>
 
     </div>
   );
